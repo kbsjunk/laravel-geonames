@@ -4,8 +4,8 @@ use ErrorException;
 use RuntimeException;
 
 use Illuminate\Console\Command;
-use Symfony\Component\Console\Input\InputOption;
-use Symfony\Component\Console\Input\InputArgument;
+// use Symfony\Component\Console\Input\InputOption;
+// use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Process\Process;
 
 use ZipArchive;
@@ -63,11 +63,25 @@ class InstallGeonamesCommand extends Command
 
         $url = $this->buildUrl('feature_codes', ['locale' => 'en']);
 
+        $this->info('- en');
+
         $this->downloadFile($url, storage_path('geonames'));
 
         $this->doSeed('FeatureClassSeeder');
         
         $languages = config('geonames.available.feature_code_locales');
+
+        foreach ($languages as $language) {
+
+            $url = $this->buildUrl('feature_codes', ['locale' => $language]);
+
+            $this->info('- ' . $language);
+
+            $this->downloadFile($url, storage_path('geonames'));
+
+            $this->doSeed('FeatureClassNamesSeeder', "--language=$language");
+
+        }
         
     }
 
@@ -88,9 +102,9 @@ class InstallGeonamesCommand extends Command
      * @param  string  $class
      * @return void
      */
-    protected function doSeed($class)
+    protected function doSeed($class, $options = null)
     {
-        $command = 'php artisan db:seed --class="'.$class.'"';
+        $command = 'php artisan geonames:seed --class="'.$class.'" '.$options;
         
         $process = new Process($command, base_path(), null, null, 0);
 
@@ -114,6 +128,14 @@ class InstallGeonamesCommand extends Command
     {
         $filename = $filename ?: basename($url);
 
+        if (false && $this->fileExists($path, $filename)) {
+            if (!$this->confirm('The file "'.$filename.'" already exists.' . PHP_EOL .
+                'Do you want to download it again? [yes|no]', false))
+            {
+                return;
+            }
+        }
+
         if ( ! $fp = fopen ($path . '/' . $filename, 'w+')) {
             throw new RuntimeException('Cannot write to path: ' . $path);
         }
@@ -126,6 +148,19 @@ class InstallGeonamesCommand extends Command
         fclose($fp);
     }
 
+    protected function fileExists($path, $filename)
+    {
+        if (file_exists($path . '/' . $filename)) {
+            return true;
+        }
+
+        if (file_exists($path . '/' . str_replace('.zip', '.txt', $filename))) {
+            return true;
+        }
+
+        return false;
+    }
+
     /**
      * Get the console command options.
      *
@@ -133,11 +168,11 @@ class InstallGeonamesCommand extends Command
      */
     protected function getOptions()
     {
-        return array(
-            array('country', null, InputOption::VALUE_REQUIRED, 'Download files for specific countries, comma separated.'),
+        return [
+            ['country', null, InputOption::VALUE_REQUIRED, 'Download files for specific countries, comma separated.'],
             // array('development', null, InputOption::VALUE_NONE, 'Downloads an smaller version of names (~10MB).'),
             // array('fetch-only', null, InputOption::VALUE_NONE, 'Just download the files.'),
             // array('wipe-files', null, InputOption::VALUE_NONE, 'Wipe old downloaded files and fetch new ones.'),
-        );
+        ];
     }
 }

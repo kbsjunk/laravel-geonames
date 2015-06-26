@@ -1,11 +1,15 @@
 <?php
 
-class FeatureClassSeeder extends CsvSeeder {
+class FeatureClassNamesSeeder extends CsvSeeder {
+
+	protected $language;
 
 	public function __construct()
 	{
-		$this->table = 'feature_codes';
-		$this->filename = storage_path('geonames/featureCodes_en.txt');
+		$this->language = $this->command->option('language');
+
+		$this->table = 'feature_code_names';
+		$this->filename = storage_path('geonames/featureCodes_'.$this->language.'.txt');
 		
 		$this->csv_delimiter = "\t";
 
@@ -30,11 +34,8 @@ class FeatureClassSeeder extends CsvSeeder {
 
 	public function processRow(array $row)
 	{
-		$fields = explode('.', $row['code']);
-
 		$extra = [
-			'feature_class' => $fields[0],
-			'feature_code'  => @$fields[1] ?: 'null',
+			'language' => $this->language
 		];
 
 		return array_merge($row, $extra);

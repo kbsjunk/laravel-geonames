@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "06d85a517248a6f9419338ec4f9eba0d",
+    "hash": "e2f9f03db27b33f2137886a485aa670a",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -224,16 +224,16 @@
         },
         {
             "name": "flynsarmy/csv-seeder",
-            "version": "v1.0.4",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Flynsarmy/laravel-csv-seeder.git",
-                "reference": "c38863534b61b58abcd9a1b535dee71fb2b1122e"
+                "reference": "6ee1358058de44fbadea04566eb6793046c4e421"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Flynsarmy/laravel-csv-seeder/zipball/c38863534b61b58abcd9a1b535dee71fb2b1122e",
-                "reference": "c38863534b61b58abcd9a1b535dee71fb2b1122e",
+                "url": "https://api.github.com/repos/Flynsarmy/laravel-csv-seeder/zipball/6ee1358058de44fbadea04566eb6793046c4e421",
+                "reference": "6ee1358058de44fbadea04566eb6793046c4e421",
                 "shasum": ""
             },
             "require": {
@@ -264,7 +264,7 @@
                 "seeding",
                 "seeds"
             ],
-            "time": "2015-05-28 06:08:15"
+            "time": "2015-06-20 14:10:43"
         },
         {
             "name": "jakub-onderka/php-console-color",

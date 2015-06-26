@@ -36,7 +36,7 @@ return [
     'available' => [
 
         'feature_code_locales' => [
-            //'en',
+            //'en', // Already included as base locale
             'bg','nb','nn','no','ru','sv',
         ],
 

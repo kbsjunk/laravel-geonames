@@ -14,6 +14,7 @@ class Kernel extends ConsoleKernel
      */
     protected $commands = [
         \App\Console\Commands\InstallGeonamesCommand::class,
+        \App\Console\Commands\SeedGeonamesCommand::class,
     ];
 
     /**
