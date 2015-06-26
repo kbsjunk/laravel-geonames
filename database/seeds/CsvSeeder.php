@@ -2,20 +2,20 @@
 
 use Flynsarmy\CsvSeeder\CsvSeeder as BaseCsvSeeder;
 
-class CsvSeeder extends BaseCsvSeeder {
+abstract class CsvSeeder extends BaseCsvSeeder {
 
-	public function __construct()
-	{
-		$this->table = 'your_table';
-		$this->filename = base_path().'/database/seeds/csvs/your_csv.csv';
-	}
+	public function before() {}
 
 	public function run()
 	{
+		$this->before();
+
 		DB::disableQueryLog();
 
-		if ($this->truncate) DB::table($this->table)->truncate();
-
 		parent::run();
+
+		$this->after();
 	}
+
+	public function after() {}
 }
