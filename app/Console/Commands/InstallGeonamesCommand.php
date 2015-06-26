@@ -1,11 +1,13 @@
-<?php namespace App\Console\Commands;
+<?php
+
+namespace App\Console\Commands;
 
 use ErrorException;
 use RuntimeException;
 
 use Illuminate\Console\Command;
-// use Symfony\Component\Console\Input\InputOption;
-// use Symfony\Component\Console\Input\InputArgument;
+use Symfony\Component\Console\Input\InputOption;
+use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Process\Process;
 
 use ZipArchive;
