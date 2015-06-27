@@ -14,9 +14,8 @@ class CreateFeatureCodeNamesTable extends Migration
     {
         Schema::create('feature_code_names', function (Blueprint $table) {
             $table->string('code')->index();
+            $table->string('name')->index();
             $table->string('language', 7)->index();
-            $table->string('name');
-            $table->string('description');
         });
     }
 

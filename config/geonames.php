@@ -64,4 +64,15 @@ return [
         ],
 
     ],
+
+    'supporting' => [
+
+        'urls' => [
+            'http://www.geopostcodes.com/inc/download.php?f=ISO3166-2&t=9',
+            'http://www.geopostcodes.com/inc/download.php?f=NGA&t=9',
+            'http://www.geopostcodes.com/inc/download.php?f=NUTS&t=9',
+            'http://www.geopostcodes.com/inc/download.php?f=Admin&t=9',
+        ]
+
+    ]
 ];

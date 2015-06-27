@@ -14,10 +14,10 @@ class CreateFeatureCodesTable extends Migration
     {
         Schema::create('feature_codes', function (Blueprint $table) {
             $table->string('code')->primary();
+            $table->string('name')->index();
             $table->string('feature_class', 1)->index();
             $table->string('feature_code', 10)->index();
-            $table->string('name');
-            $table->string('description');
+            $table->string('description')->nullable();
         });
     }
 

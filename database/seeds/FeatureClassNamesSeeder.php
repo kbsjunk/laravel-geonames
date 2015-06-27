@@ -16,13 +16,13 @@ class FeatureClassNamesSeeder extends CsvSeeder {
 		$this->mapping = [
 			0 => 'code',
 			1 => 'name',
-			2 => 'description',
+			// 2 => 'description',
 		];
 	}
 
 	public function before()
 	{
-		$this->truncate();
+		// $this->truncate();
 	}
 
 	public function after()

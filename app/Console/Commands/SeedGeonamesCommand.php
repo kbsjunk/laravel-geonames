@@ -26,9 +26,8 @@ class SeedGeonamesCommand extends SeedCommand
      */
     protected function getOptions()
     {
-
         $options = [
-            ['language', null, InputOption::VALUE_REQUIRED, 'Seed the specifed language file.'],
+            ['language', null, InputOption::VALUE_REQUIRED, 'Seed the specified language file.'],
         ];
 
         return array_merge($options, parent::getOptions());

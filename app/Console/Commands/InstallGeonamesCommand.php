@@ -48,7 +48,9 @@ class InstallGeonamesCommand extends Command
     {
         
         $this->doMigrate();
-        $this->doDownload();
+        // $this->doFeatureClasses();
+        $this->doAdmin1Codes();
+        $this->doAdmin2Codes();
 
     }
 
@@ -59,21 +61,21 @@ class InstallGeonamesCommand extends Command
         $this->call('migrate');
     }
 
-    protected function doDownload()
+    protected function doFeatureClasses()
     {
-        $this->info('Downloading Feature Class tables.');
+       $this->info('Downloading Feature Class tables.');
 
-        $url = $this->buildUrl('feature_codes', ['locale' => 'en']);
+       $url = $this->buildUrl('feature_codes', ['locale' => 'en']);
 
-        $this->info('- en');
+       $this->info('- en');
 
-        $this->downloadFile($url, storage_path('geonames'));
+       $this->downloadFile($url, storage_path('geonames'));
 
-        $this->doSeed('FeatureClassSeeder');
-        
-        $languages = config('geonames.available.feature_code_locales');
+       $this->doSeed('FeatureClassSeeder');
 
-        foreach ($languages as $language) {
+       $languages = config('geonames.available.feature_code_locales');
+
+       foreach ($languages as $language) {
 
             $url = $this->buildUrl('feature_codes', ['locale' => $language]);
 
@@ -81,10 +83,32 @@ class InstallGeonamesCommand extends Command
 
             $this->downloadFile($url, storage_path('geonames'));
 
-            $this->doSeed('FeatureClassNamesSeeder', "--language=$language");
+            // $this->doSeed('FeatureClassNamesSeeder', "--language=$language");
 
         }
-        
+
+    }
+
+    protected function doAdmin1Codes()
+    {
+        $this->info('Downloading Admin 1 Codes table.');
+
+        $url = $this->buildUrl('admin1_codes');
+
+        $this->downloadFile($url, storage_path('geonames'));
+
+        $this->doSeed('Admin1CodesSeeder');
+    }
+
+    protected function doAdmin2Codes()
+    {
+        $this->info('Downloading Admin 2 Codes table.');
+
+        $url = $this->buildUrl('admin2_codes');
+
+        $this->downloadFile($url, storage_path('geonames'));
+
+        $this->doSeed('Admin2CodesSeeder');
     }
 
     protected function buildUrl($file, $replacements = [])
@@ -106,7 +130,7 @@ class InstallGeonamesCommand extends Command
      */
     protected function doSeed($class, $options = null)
     {
-        $command = 'php artisan geonames:seed --class="'.$class.'" '.$options;
+        $command = 'php artisan db:seed --class="'.$class.'" '.$options;
         
         $process = new Process($command, base_path(), null, null, 0);
 
