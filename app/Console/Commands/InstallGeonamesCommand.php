@@ -49,8 +49,8 @@ class InstallGeonamesCommand extends Command
         
         $this->doMigrate();
         // $this->doFeatureClasses();
-        $this->doAdmin1Codes();
-        $this->doAdmin2Codes();
+        // $this->doAdmin1Codes();
+        // $this->doAdmin2Codes();
 
     }
 
@@ -83,7 +83,7 @@ class InstallGeonamesCommand extends Command
 
             $this->downloadFile($url, storage_path('geonames'));
 
-            // $this->doSeed('FeatureClassNamesSeeder', "--language=$language");
+            $this->doSeed('FeatureClassNamesSeeder', "--language=$language");
 
         }
 
@@ -130,7 +130,7 @@ class InstallGeonamesCommand extends Command
      */
     protected function doSeed($class, $options = null)
     {
-        $command = 'php artisan db:seed --class="'.$class.'" '.$options;
+        $command = 'php artisan geonames:seed --class="'.$class.'" '.$options;
         
         $process = new Process($command, base_path(), null, null, 0);
 

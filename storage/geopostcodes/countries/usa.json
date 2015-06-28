@@ -1,0 +1,1137 @@
+[
+    {
+        "type": "Federal District",
+        "children": [
+            {
+                "name": "Washington, D.C.",
+                "url": "http:\/\/www.geopostcodes.com\/Washington_DC",
+                "codes": [
+                    {
+                        "type": "iso",
+                        "code": "US-DC"
+                    },
+                    {
+                        "type": "fips",
+                        "code": "US11"
+                    },
+                    {
+                        "type": "hasc",
+                        "code": "US.DC"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "States",
+        "children": [
+            {
+                "name": "Alabama",
+                "url": "http:\/\/www.geopostcodes.com\/Alabama",
+                "codes": [
+                    {
+                        "type": "iso",
+                        "code": "US-AL"
+                    },
+                    {
+                        "type": "fips",
+                        "code": "US01"
+                    },
+                    {
+                        "type": "hasc",
+                        "code": "US.AL"
+                    }
+                ]
+            },
+            {
+                "name": "Alaska",
+                "url": "http:\/\/www.geopostcodes.com\/Alaska",
+                "codes": [
+                    {
+                        "type": "iso",
+                        "code": "US-AK"
+                    },
+                    {
+                        "type": "fips",
+                        "code": "US02"
+                    },
+                    {
+                        "type": "hasc",
+                        "code": "US.AK"
+                    }
+                ]
+            },
+            {
+                "name": "Arizona",
+                "url": "http:\/\/www.geopostcodes.com\/Arizona",
+                "codes": [
+                    {
+                        "type": "iso",
+                        "code": "US-AZ"
+                    },
+                    {
+                        "type": "fips",
+                        "code": "US04"
+                    },
+                    {
+                        "type": "hasc",
+                        "code": "US.AZ"
+                    }
+                ]
+            },
+            {
+                "name": "Arkansas",
+                "url": "http:\/\/www.geopostcodes.com\/Arkansas",
+                "codes": [
+                    {
+                        "type": "iso",
+                        "code": "US-AR"
+                    },
+                    {
+                        "type": "fips",
+                        "code": "US05"
+                    },
+                    {
+                        "type": "hasc",
+                        "code": "US.AR"
+                    }
+                ]
+            },
+            {
+                "name": "California",
+                "url": "http:\/\/www.geopostcodes.com\/California",
+                "codes": [
+                    {
+                        "type": "iso",
+                        "code": "US-CA"
+                    },
+                    {
+                        "type": "fips",
+                        "code": "US06"
+                    },
+                    {
+                        "type": "hasc",
+                        "code": "US.CA"
+                    }
+                ]
+            },
+            {
+                "name": "Colorado",
+                "url": "http:\/\/www.geopostcodes.com\/Colorado",
+                "codes": [
+                    {
+                        "type": "iso",
+                        "code": "US-CO"
+                    },
+                    {
+                        "type": "fips",
+                        "code": "US08"
+                    },
+                    {
+                        "type": "hasc",
+                        "code": "US.CO"
+                    }
+                ]
+            },
+            {
+                "name": "Connecticut",
+                "url": "http:\/\/www.geopostcodes.com\/Connecticut",
+                "codes": [
+                    {
+                        "type": "iso",
+                        "code": "US-CT"
+                    },
+                    {
+                        "type": "fips",
+                        "code": "US09"
+                    },
+                    {
+                        "type": "hasc",
+                        "code": "US.CT"
+                    }
+                ]
+            },
+            {
+                "name": "Delaware",
+                "url": "http:\/\/www.geopostcodes.com\/Delaware",
+                "codes": [
+                    {
+                        "type": "iso",
+                        "code": "US-DE"
+                    },
+                    {
+                        "type": "fips",
+                        "code": "US10"
+                    },
+                    {
+                        "type": "hasc",
+                        "code": "US.DE"
+                    }
+                ]
+            },
+            {
+                "name": "Florida",
+                "url": "http:\/\/www.geopostcodes.com\/Florida",
+                "codes": [
+                    {
+                        "type": "iso",
+                        "code": "US-FL"
+                    },
+                    {
+                        "type": "fips",
+                        "code": "US12"
+                    },
+                    {
+                        "type": "hasc",
+                        "code": "US.FL"
+                    }
+                ]
+            },
+            {
+                "name": "Georgia",
+                "url": "http:\/\/www.geopostcodes.com\/Georgia_State",
+                "codes": [
+                    {
+                        "type": "iso",
+                        "code": "US-GA"
+                    },
+                    {
+                        "type": "fips",
+                        "code": "US13"
+                    },
+                    {
+                        "type": "hasc",
+                        "code": "US.GA"
+                    }
+                ]
+            },
+            {
+                "name": "Hawaii",
+                "url": "http:\/\/www.geopostcodes.com\/Hawaii",
+                "codes": [
+                    {
+                        "type": "iso",
+                        "code": "US-HI"
+                    },
+                    {
+                        "type": "fips",
+                        "code": "US15"
+                    },
+                    {
+                        "type": "hasc",
+                        "code": "US.HI"
+                    }
+                ]
+            },
+            {
+                "name": "Idaho",
+                "url": "http:\/\/www.geopostcodes.com\/Idaho",
+                "codes": [
+                    {
+                        "type": "iso",
+                        "code": "US-ID"
+                    },
+                    {
+                        "type": "fips",
+                        "code": "US16"
+                    },
+                    {
+                        "type": "hasc",
+                        "code": "US.ID"
+                    }
+                ]
+            },
+            {
+                "name": "Illinois",
+                "url": "http:\/\/www.geopostcodes.com\/Illinois",
+                "codes": [
+                    {
+                        "type": "iso",
+                        "code": "US-IL"
+                    },
+                    {
+                        "type": "fips",
+                        "code": "US17"
+                    },
+                    {
+                        "type": "hasc",
+                        "code": "US.IL"
+                    }
+                ]
+            },
+            {
+                "name": "Indiana",
+                "url": "http:\/\/www.geopostcodes.com\/Indiana",
+                "codes": [
+                    {
+                        "type": "iso",
+                        "code": "US-IN"
+                    },
+                    {
+                        "type": "fips",
+                        "code": "US18"
+                    },
+                    {
+                        "type": "hasc",
+                        "code": "US.IN"
+                    }
+                ]
+            },
+            {
+                "name": "Iowa",
+                "url": "http:\/\/www.geopostcodes.com\/Iowa",
+                "codes": [
+                    {
+                        "type": "iso",
+                        "code": "US-IA"
+                    },
+                    {
+                        "type": "fips",
+                        "code": "US19"
+                    },
+                    {
+                        "type": "hasc",
+                        "code": "US.IA"
+                    }
+                ]
+            },
+            {
+                "name": "Kansas",
+                "url": "http:\/\/www.geopostcodes.com\/Kansas",
+                "codes": [
+                    {
+                        "type": "iso",
+                        "code": "US-KS"
+                    },
+                    {
+                        "type": "fips",
+                        "code": "US20"
+                    },
+                    {
+                        "type": "hasc",
+                        "code": "US.KS"
+                    }
+                ]
+            },
+            {
+                "name": "Kentucky",
+                "url": "http:\/\/www.geopostcodes.com\/Kentucky",
+                "codes": [
+                    {
+                        "type": "iso",
+                        "code": "US-KY"
+                    },
+                    {
+                        "type": "fips",
+                        "code": "US21"
+                    },
+                    {
+                        "type": "hasc",
+                        "code": "US.KY"
+                    }
+                ]
+            },
+            {
+                "name": "Louisiana",
+                "url": "http:\/\/www.geopostcodes.com\/Louisiana",
+                "codes": [
+                    {
+                        "type": "iso",
+                        "code": "US-LA"
+                    },
+                    {
+                        "type": "fips",
+                        "code": "US22"
+                    },
+                    {
+                        "type": "hasc",
+                        "code": "US.LA"
+                    }
+                ]
+            },
+            {
+                "name": "Maine",
+                "url": "http:\/\/www.geopostcodes.com\/Maine",
+                "codes": [
+                    {
+                        "type": "iso",
+                        "code": "US-ME"
+                    },
+                    {
+                        "type": "fips",
+                        "code": "US23"
+                    },
+                    {
+                        "type": "hasc",
+                        "code": "US.ME"
+                    }
+                ]
+            },
+            {
+                "name": "Maryland",
+                "url": "http:\/\/www.geopostcodes.com\/Maryland",
+                "codes": [
+                    {
+                        "type": "iso",
+                        "code": "US-MD"
+                    },
+                    {
+                        "type": "fips",
+                        "code": "US24"
+                    },
+                    {
+                        "type": "hasc",
+                        "code": "US.MD"
+                    }
+                ]
+            },
+            {
+                "name": "Massachusetts",
+                "url": "http:\/\/www.geopostcodes.com\/Massachusetts",
+                "codes": [
+                    {
+                        "type": "iso",
+                        "code": "US-MA"
+                    },
+                    {
+                        "type": "fips",
+                        "code": "US25"
+                    },
+                    {
+                        "type": "hasc",
+                        "code": "US.MA"
+                    }
+                ]
+            },
+            {
+                "name": "Michigan",
+                "url": "http:\/\/www.geopostcodes.com\/Michigan",
+                "codes": [
+                    {
+                        "type": "iso",
+                        "code": "US-MI"
+                    },
+                    {
+                        "type": "fips",
+                        "code": "US26"
+                    },
+                    {
+                        "type": "hasc",
+                        "code": "US.MI"
+                    }
+                ]
+            },
+            {
+                "name": "Minnesota",
+                "url": "http:\/\/www.geopostcodes.com\/Minnesota",
+                "codes": [
+                    {
+                        "type": "iso",
+                        "code": "US-MN"
+                    },
+                    {
+                        "type": "fips",
+                        "code": "US27"
+                    },
+                    {
+                        "type": "hasc",
+                        "code": "US.MN"
+                    }
+                ]
+            },
+            {
+                "name": "Mississippi",
+                "url": "http:\/\/www.geopostcodes.com\/Mississippi",
+                "codes": [
+                    {
+                        "type": "iso",
+                        "code": "US-MS"
+                    },
+                    {
+                        "type": "fips",
+                        "code": "US28"
+                    },
+                    {
+                        "type": "hasc",
+                        "code": "US.MS"
+                    }
+                ]
+            },
+            {
+                "name": "Missouri",
+                "url": "http:\/\/www.geopostcodes.com\/Missouri",
+                "codes": [
+                    {
+                        "type": "iso",
+                        "code": "US-MO"
+                    },
+                    {
+                        "type": "fips",
+                        "code": "US29"
+                    },
+                    {
+                        "type": "hasc",
+                        "code": "US.MO"
+                    }
+                ]
+            },
+            {
+                "name": "Montana",
+                "url": "http:\/\/www.geopostcodes.com\/Montana",
+                "codes": [
+                    {
+                        "type": "iso",
+                        "code": "US-MT"
+                    },
+                    {
+                        "type": "fips",
+                        "code": "US30"
+                    },
+                    {
+                        "type": "hasc",
+                        "code": "US.MT"
+                    }
+                ]
+            },
+            {
+                "name": "Nebraska",
+                "url": "http:\/\/www.geopostcodes.com\/Nebraska",
+                "codes": [
+                    {
+                        "type": "iso",
+                        "code": "US-NE"
+                    },
+                    {
+                        "type": "fips",
+                        "code": "US31"
+                    },
+                    {
+                        "type": "hasc",
+                        "code": "US.NE"
+                    }
+                ]
+            },
+            {
+                "name": "Nevada",
+                "url": "http:\/\/www.geopostcodes.com\/Nevada",
+                "codes": [
+                    {
+                        "type": "iso",
+                        "code": "US-NV"
+                    },
+                    {
+                        "type": "fips",
+                        "code": "US32"
+                    },
+                    {
+                        "type": "hasc",
+                        "code": "US.NV"
+                    }
+                ]
+            },
+            {
+                "name": "New Hampshire",
+                "url": "http:\/\/www.geopostcodes.com\/New_Hampshire",
+                "codes": [
+                    {
+                        "type": "iso",
+                        "code": "US-NH"
+                    },
+                    {
+                        "type": "fips",
+                        "code": "US33"
+                    },
+                    {
+                        "type": "hasc",
+                        "code": "US.NH"
+                    }
+                ]
+            },
+            {
+                "name": "New Jersey",
+                "url": "http:\/\/www.geopostcodes.com\/New_Jersey",
+                "codes": [
+                    {
+                        "type": "iso",
+                        "code": "US-NJ"
+                    },
+                    {
+                        "type": "fips",
+                        "code": "US34"
+                    },
+                    {
+                        "type": "hasc",
+                        "code": "US.NJ"
+                    }
+                ]
+            },
+            {
+                "name": "New Mexico",
+                "url": "http:\/\/www.geopostcodes.com\/New_Mexico",
+                "codes": [
+                    {
+                        "type": "iso",
+                        "code": "US-NM"
+                    },
+                    {
+                        "type": "fips",
+                        "code": "US35"
+                    },
+                    {
+                        "type": "hasc",
+                        "code": "US.NM"
+                    }
+                ]
+            },
+            {
+                "name": "New York",
+                "url": "http:\/\/www.geopostcodes.com\/New_York",
+                "codes": [
+                    {
+                        "type": "iso",
+                        "code": "US-NY"
+                    },
+                    {
+                        "type": "fips",
+                        "code": "US36"
+                    },
+                    {
+                        "type": "hasc",
+                        "code": "US.NY"
+                    }
+                ]
+            },
+            {
+                "name": "North Carolina",
+                "url": "http:\/\/www.geopostcodes.com\/North_Carolina",
+                "codes": [
+                    {
+                        "type": "iso",
+                        "code": "US-NC"
+                    },
+                    {
+                        "type": "fips",
+                        "code": "US37"
+                    },
+                    {
+                        "type": "hasc",
+                        "code": "US.NC"
+                    }
+                ]
+            },
+            {
+                "name": "North Dakota",
+                "url": "http:\/\/www.geopostcodes.com\/North_Dakota",
+                "codes": [
+                    {
+                        "type": "iso",
+                        "code": "US-ND"
+                    },
+                    {
+                        "type": "fips",
+                        "code": "US38"
+                    },
+                    {
+                        "type": "hasc",
+                        "code": "US.ND"
+                    }
+                ]
+            },
+            {
+                "name": "Ohio",
+                "url": "http:\/\/www.geopostcodes.com\/Ohio",
+                "codes": [
+                    {
+                        "type": "iso",
+                        "code": "US-OH"
+                    },
+                    {
+                        "type": "fips",
+                        "code": "US39"
+                    },
+                    {
+                        "type": "hasc",
+                        "code": "US.OH"
+                    }
+                ]
+            },
+            {
+                "name": "Oklahoma",
+                "url": "http:\/\/www.geopostcodes.com\/Oklahoma",
+                "codes": [
+                    {
+                        "type": "iso",
+                        "code": "US-OK"
+                    },
+                    {
+                        "type": "fips",
+                        "code": "US40"
+                    },
+                    {
+                        "type": "hasc",
+                        "code": "US.OK"
+                    }
+                ]
+            },
+            {
+                "name": "Oregon",
+                "url": "http:\/\/www.geopostcodes.com\/Oregon",
+                "codes": [
+                    {
+                        "type": "iso",
+                        "code": "US-OR"
+                    },
+                    {
+                        "type": "fips",
+                        "code": "US41"
+                    },
+                    {
+                        "type": "hasc",
+                        "code": "US.OR"
+                    }
+                ]
+            },
+            {
+                "name": "Pennsylvania",
+                "url": "http:\/\/www.geopostcodes.com\/Pennsylvania",
+                "codes": [
+                    {
+                        "type": "iso",
+                        "code": "US-PA"
+                    },
+                    {
+                        "type": "fips",
+                        "code": "US42"
+                    },
+                    {
+                        "type": "hasc",
+                        "code": "US.PA"
+                    }
+                ]
+            },
+            {
+                "name": "Rhode Island",
+                "url": "http:\/\/www.geopostcodes.com\/Rhode_Island",
+                "codes": [
+                    {
+                        "type": "iso",
+                        "code": "US-RI"
+                    },
+                    {
+                        "type": "fips",
+                        "code": "US44"
+                    },
+                    {
+                        "type": "hasc",
+                        "code": "US.RI"
+                    }
+                ]
+            },
+            {
+                "name": "South Carolina",
+                "url": "http:\/\/www.geopostcodes.com\/South_Carolina",
+                "codes": [
+                    {
+                        "type": "iso",
+                        "code": "US-SC"
+                    },
+                    {
+                        "type": "fips",
+                        "code": "US45"
+                    },
+                    {
+                        "type": "hasc",
+                        "code": "US.SC"
+                    }
+                ]
+            },
+            {
+                "name": "South Dakota",
+                "url": "http:\/\/www.geopostcodes.com\/South_Dakota",
+                "codes": [
+                    {
+                        "type": "iso",
+                        "code": "US-SD"
+                    },
+                    {
+                        "type": "fips",
+                        "code": "US46"
+                    },
+                    {
+                        "type": "hasc",
+                        "code": "US.SD"
+                    }
+                ]
+            },
+            {
+                "name": "Tennessee",
+                "url": "http:\/\/www.geopostcodes.com\/Tennessee",
+                "codes": [
+                    {
+                        "type": "iso",
+                        "code": "US-TN"
+                    },
+                    {
+                        "type": "fips",
+                        "code": "US47"
+                    },
+                    {
+                        "type": "hasc",
+                        "code": "US.TN"
+                    }
+                ]
+            },
+            {
+                "name": "Texas",
+                "url": "http:\/\/www.geopostcodes.com\/Texas",
+                "codes": [
+                    {
+                        "type": "iso",
+                        "code": "US-TX"
+                    },
+                    {
+                        "type": "fips",
+                        "code": "US48"
+                    },
+                    {
+                        "type": "hasc",
+                        "code": "US.TX"
+                    }
+                ]
+            },
+            {
+                "name": "Utah",
+                "url": "http:\/\/www.geopostcodes.com\/Utah",
+                "codes": [
+                    {
+                        "type": "iso",
+                        "code": "US-UT"
+                    },
+                    {
+                        "type": "fips",
+                        "code": "US49"
+                    },
+                    {
+                        "type": "hasc",
+                        "code": "US.UT"
+                    }
+                ]
+            },
+            {
+                "name": "Vermont",
+                "url": "http:\/\/www.geopostcodes.com\/Vermont",
+                "codes": [
+                    {
+                        "type": "iso",
+                        "code": "US-VT"
+                    },
+                    {
+                        "type": "fips",
+                        "code": "US50"
+                    },
+                    {
+                        "type": "hasc",
+                        "code": "US.VT"
+                    }
+                ]
+            },
+            {
+                "name": "Virginia",
+                "url": "http:\/\/www.geopostcodes.com\/Virginia",
+                "codes": [
+                    {
+                        "type": "iso",
+                        "code": "US-VA"
+                    },
+                    {
+                        "type": "fips",
+                        "code": "US51"
+                    },
+                    {
+                        "type": "hasc",
+                        "code": "US.VA"
+                    }
+                ]
+            },
+            {
+                "name": "Washington",
+                "url": "http:\/\/www.geopostcodes.com\/Washington",
+                "codes": [
+                    {
+                        "type": "iso",
+                        "code": "US-WA"
+                    },
+                    {
+                        "type": "fips",
+                        "code": "US53"
+                    },
+                    {
+                        "type": "hasc",
+                        "code": "US.WA"
+                    }
+                ]
+            },
+            {
+                "name": "West Virginia",
+                "url": "http:\/\/www.geopostcodes.com\/West_Virginia",
+                "codes": [
+                    {
+                        "type": "iso",
+                        "code": "US-WV"
+                    },
+                    {
+                        "type": "fips",
+                        "code": "US54"
+                    },
+                    {
+                        "type": "hasc",
+                        "code": "US.WV"
+                    }
+                ]
+            },
+            {
+                "name": "Wisconsin",
+                "url": "http:\/\/www.geopostcodes.com\/Wisconsin",
+                "codes": [
+                    {
+                        "type": "iso",
+                        "code": "US-WI"
+                    },
+                    {
+                        "type": "fips",
+                        "code": "US55"
+                    },
+                    {
+                        "type": "hasc",
+                        "code": "US.WI"
+                    }
+                ]
+            },
+            {
+                "name": "Wyoming",
+                "url": "http:\/\/www.geopostcodes.com\/Wyoming",
+                "codes": [
+                    {
+                        "type": "iso",
+                        "code": "US-WY"
+                    },
+                    {
+                        "type": "fips",
+                        "code": "US56"
+                    },
+                    {
+                        "type": "hasc",
+                        "code": "US.WY"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "Territories",
+        "children": [
+            {
+                "name": "American Samoa",
+                "url": "http:\/\/www.geopostcodes.com\/goto_American_Samoa",
+                "codes": [
+                    {
+                        "type": "iso",
+                        "code": "AS"
+                    },
+                    {
+                        "type": "fips",
+                        "code": "AQ"
+                    },
+                    {
+                        "type": "hasc",
+                        "code": "AS"
+                    }
+                ]
+            },
+            {
+                "name": "Guam",
+                "url": "http:\/\/www.geopostcodes.com\/goto_Guam",
+                "codes": [
+                    {
+                        "type": "iso",
+                        "code": "GU"
+                    },
+                    {
+                        "type": "fips",
+                        "code": "GQ"
+                    },
+                    {
+                        "type": "hasc",
+                        "code": "GU"
+                    }
+                ]
+            },
+            {
+                "name": "Minor Outlying Islands",
+                "url": "http:\/\/www.geopostcodes.com\/goto_Minor_Outlying_Islands",
+                "codes": [
+                    {
+                        "type": "iso",
+                        "code": "UM"
+                    },
+                    {
+                        "type": "fips",
+                        "code": "-"
+                    },
+                    {
+                        "type": "hasc",
+                        "code": "UM"
+                    }
+                ]
+            },
+            {
+                "name": "Northern Mariana Islands",
+                "url": "http:\/\/www.geopostcodes.com\/goto_Northern_Mariana_Islands",
+                "codes": [
+                    {
+                        "type": "iso",
+                        "code": "MP"
+                    },
+                    {
+                        "type": "fips",
+                        "code": "CQ"
+                    },
+                    {
+                        "type": "hasc",
+                        "code": "MP"
+                    }
+                ]
+            },
+            {
+                "name": "Puerto Rico",
+                "url": "http:\/\/www.geopostcodes.com\/goto_Puerto_Rico",
+                "codes": [
+                    {
+                        "type": "iso",
+                        "code": "PR"
+                    },
+                    {
+                        "type": "fips",
+                        "code": "RQ"
+                    },
+                    {
+                        "type": "hasc",
+                        "code": "PR"
+                    }
+                ]
+            },
+            {
+                "name": "Virgin Islands",
+                "url": "http:\/\/www.geopostcodes.com\/goto_Virgin_Islands",
+                "codes": [
+                    {
+                        "type": "iso",
+                        "code": "VI"
+                    },
+                    {
+                        "type": "fips",
+                        "code": "VQ"
+                    },
+                    {
+                        "type": "hasc",
+                        "code": "VI"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "Associated states",
+        "children": [
+            {
+                "name": "Marshall Islands",
+                "url": "http:\/\/www.geopostcodes.com\/goto_Marshall_Islands",
+                "codes": [
+                    {
+                        "type": "iso",
+                        "code": "MH"
+                    },
+                    {
+                        "type": "fips",
+                        "code": "RM"
+                    },
+                    {
+                        "type": "hasc",
+                        "code": "MH"
+                    }
+                ]
+            },
+            {
+                "name": "Micronesia",
+                "url": "http:\/\/www.geopostcodes.com\/goto_Micronesia",
+                "codes": [
+                    {
+                        "type": "iso",
+                        "code": "FM"
+                    },
+                    {
+                        "type": "fips",
+                        "code": "FM"
+                    },
+                    {
+                        "type": "hasc",
+                        "code": "FM"
+                    }
+                ]
+            },
+            {
+                "name": "Palau",
+                "url": "http:\/\/www.geopostcodes.com\/goto_Palau",
+                "codes": [
+                    {
+                        "type": "iso",
+                        "code": "PW"
+                    },
+                    {
+                        "type": "fips",
+                        "code": "PS"
+                    },
+                    {
+                        "type": "hasc",
+                        "code": "PW"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "US Armed Forces",
+        "children": [
+            {
+                "name": "U.S. Armed Forces - Americas",
+                "url": null,
+                "codes": [
+                    {
+                        "type": "fips",
+                        "code": "AA"
+                    }
+                ]
+            },
+            {
+                "name": "U.S. Armed Forces - Europe",
+                "url": null,
+                "codes": [
+                    {
+                        "type": "fips",
+                        "code": "AE"
+                    }
+                ]
+            },
+            {
+                "name": "U.S. Armed Forces - Pacific",
+                "url": null,
+                "codes": [
+                    {
+                        "type": "fips",
+                        "code": "AP"
+                    }
+                ]
+            }
+        ]
+    }
+]

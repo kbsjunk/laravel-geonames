@@ -1,11 +1,16 @@
 <?php
 
+use App\Console\Commands\SeedGeonamesCommand;
+
 class FeatureClassNamesSeeder extends CsvSeeder {
 
 	protected $language;
 
 	public function __construct()
 	{
+
+		$this->setCommand(new SeedGeonamesCommand);
+
 		$this->language = $this->command->option('language');
 
 		$this->table = 'feature_code_names';

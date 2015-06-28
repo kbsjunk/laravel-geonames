@@ -12,7 +12,13 @@ class SeedGeonamesCommand extends SeedCommand
      *
      * @var string
      */
-    protected $signature = 'geonames:seed';
+    protected $name = 'geonames:seed';
+    /*
+    {--language= : Seed the specified language file.}
+    {--class=DatabaseSeeder : The class name of the root seeder.}
+    {--database=? : The database connection to seed.}
+    {--force? : Force the operation to run when in production.}
+    */
 
     public function __construct()
     {
